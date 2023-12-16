@@ -10,4 +10,40 @@ This project, titled "Itty Bitty Airfreight (IBA)", is designed to manage cargo 
 - Display processed cargo information.
 
 ## Installation
-Clone the repository to your local machine:
+1. **Clone the repository**: Clone this repository to your local machine using:
+
+```
+git clone https://github.com/kevinrutledge/itty-bitty-airfreight.git
+```
+
+2. **Navigate to the project directory**:
+
+```
+cd itty-bitty-airfreight
+```
+
+## Usage
+To use the application, compile the C++ source files and run the generated executable:
+
+```
+g++ -o cargo_management src/*.cpp
+```
+
+This will compile all the `.cpp` files in the `src` directory and link them into an executable named `cargo_management`. To run the application, use:
+
+```
+./cargo_management
+```
+
+Follow the on-screen prompts to input cargo data and view the processed information.
+
+## License
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+## Author
+Kevin Rutledge
+
+## Contact
+For any queries or suggestions, feel free to reach out at `kevin.rutledge.89@gmail.com`.
+
+Last Edited: 12/15/2023
